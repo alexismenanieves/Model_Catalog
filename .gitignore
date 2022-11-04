@@ -2,3 +2,4 @@
 .DS_Store
 Data/
 Notebooks/.ipynb_checkpoints
+.ipynb_checkpoints/
