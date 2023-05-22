@@ -16,6 +16,9 @@
 # Teradata
 - Config files to send to S3: Use a .config file and then define region = us-east-2 (or whatever region you are using) [8] 
 
+# Matplotlib
+- To see points as circles without fill, use fc='none' and ec='your_color', or alternatively c='None' and edgecolor='C1' [9]
+
 # References
 [1] https://www.tecmint.com/download-and-extract-tar-files-with-one-command/
 [2] https://stackoverflow.com/questions/37453841/download-a-file-from-google-drive-using-wget
@@ -25,3 +28,4 @@
 [6] https://phoenixnap.com/kb/ubuntu-list-installed-packages
 [7] https://www.geeksforgeeks.org/how-to-run-bash-script-in-python/
 [8] https://docs.teradata.com/r/Teradata-Tools-and-Utilities-Access-Module-Reference/July-2017/Teradata-Access-Module-for-Amazon-S3/The-config-and-credentials-Files
+[9] https://stackoverflow.com/questions/63894301/how-to-get-markers-with-no-fill-from-matplotlib-3-3-1
