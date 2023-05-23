@@ -19,6 +19,13 @@
 # Matplotlib
 - To see points as circles without fill, use fc='none' and ec='your_color', or alternatively c='None' and edgecolor='C1' [9]
 
+# AWS
+- To use the CLI: Retrieve your AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY and AWS_SESSION_TOKEN. Then in the terminal, type export AWS_ACCESS_KEY_ID="my_key_id", export AWS_SECRET_ACCESS_KEY="my_secret_acces" and export AWS_SESSION_TOKEN="my_session_token"
+- To list current buckets type: aws s3 ls 
+- To list Cloud9 environments: aws cloud9 list-environments --region us-east-1
+- To list Cloud9 users in an specific environment: aws cloud9 describe-environment-memberships --environment-id my_env_id --region us-east-1
+- To add Cloud9 users to an specific environment: aws cloud9 create-environment-membership --environment-id my_env_id --user-arn "arn:aws:sts::a_id:assumed-role/a_company_id/a_person_id_mail" --permissions "read-write" --region us-east-1
+
 # References
 [1] https://www.tecmint.com/download-and-extract-tar-files-with-one-command/
 [2] https://stackoverflow.com/questions/37453841/download-a-file-from-google-drive-using-wget
