@@ -25,6 +25,7 @@
 - To list Cloud9 environments: aws cloud9 list-environments --region us-east-1
 - To list Cloud9 users in an specific environment: aws cloud9 describe-environment-memberships --environment-id my_env_id --region us-east-1
 - To add Cloud9 users to an specific environment: aws cloud9 create-environment-membership --environment-id my_env_id --user-arn "arn:aws:sts::a_id:assumed-role/a_company_id/a_person_id_mail" --permissions "read-write" --region us-east-1
+- Amazon Inspector examines the security metrics that compose the National Vulnerability Database (NVD) (https://nvd.nist.gov/vuln ) base score for the vulnerability and adjusts them according your compute environment. The Amazon Inspector score helps you prioritize your findings by highlighting the most critical vulnerabilities for your specific environment. This score is in CVSS format and is a modification of the base Common Vulnerability Scoring System (CVSS) (https://www.first.org/cvss/ ) score provided by NVD.
 
 # References
 [1] https://www.tecmint.com/download-and-extract-tar-files-with-one-command/
